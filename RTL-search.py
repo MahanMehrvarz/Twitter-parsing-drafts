@@ -30,7 +30,7 @@ def write_unicode(text, charset='utf-8'):
 
 try:
     #search_results = twitter.search(q=keyword, count='200', lang='fa')
-    search_results = twitter.search(q=keyword, count='200')
+    search_results = twitter.search(q=keyword, count='400')
 except TwythonError as e:
     print e
 
